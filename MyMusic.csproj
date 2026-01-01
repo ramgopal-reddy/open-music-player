@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Background.jpg" />
+    <None Remove="Resources\background.mp4" />
+    <None Remove="Resources\JackSparrow.jpg" />
+    <None Remove="Resources\JD.jpg" />
+    <None Remove="Resources\JohnnyDeppJackSparrow.jpg" />
+    <None Remove="Resources\JohnWick.jpg" />
+    <None Remove="Resources\katana.png" />
+    <None Remove="Resources\katana1.png" />
+    <None Remove="Resources\music_note.png" />
+    <None Remove="Resources\needle.png" />
+    <None Remove="Resources\spyderman.jpg" />
+    <None Remove="Resources\SSMB.jpg" />
+    <None Remove="Resources\SSMB1.jpg" />
+    <None Remove="Resources\VijayThalapathyJDMaster.jpg" />
+    <None Remove="Resources\𝑽𝒆𝒏𝒐𝒎.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="TagLibSharp" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Background.jpg" />
+    <Resource Include="Resources\JackSparrow.jpg" />
+    <Resource Include="Resources\JD.jpg" />
+    <Resource Include="Resources\JohnnyDeppJackSparrow.jpg" />
+    <Resource Include="Resources\JohnWick.jpg" />
+    <Resource Include="Resources\katana.png" />
+    <Resource Include="Resources\katana1.png" />
+    <Resource Include="Resources\music_note.png" />
+    <Resource Include="Resources\needle.png" />
+    <Resource Include="Resources\spyderman.jpg" />
+    <Resource Include="Resources\SSMB.jpg" />
+    <Resource Include="Resources\SSMB1.jpg" />
+    <Resource Include="Resources\VijayThalapathyJDMaster.jpg" />
+    <Resource Include="Resources\𝑽𝒆𝒏𝒐𝒎.jpg" />
+  </ItemGroup>
+
+</Project>
